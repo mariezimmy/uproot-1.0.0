@@ -5,7 +5,7 @@
     "name": "oBerries",
     "eventList": [
         {
-            "id": "52ee26e8-3d49-49b2-83bb-68c04624ac34",
+            "id": "7be64e51-cae3-4e33-93bd-be3b69bf9ff4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
