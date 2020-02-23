@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "38b7a71e-6473-46ec-8ce5-8a9ec2c1adab",
+            "Value": {
+                "id": "4dfb7103-aec0-460a-8449-1e746426e0c8",
+                "resourcePath": "sprites\/sWin\/sWin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3c786e8a-de64-42f2-bfac-5172290be70f",
             "Value": {
                 "id": "8a8041f7-dabe-4ad3-b2f0-18f586aec188",
@@ -372,6 +380,14 @@
                 "id": "6b57c4cf-a8ec-476c-9e48-46dea25689d0",
                 "resourcePath": "objects\/oFlwr\/oFlwr.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "95a1c2ca-7a62-40fc-a157-1c91b1440bd3",
+            "Value": {
+                "id": "3714e634-6fc5-4b1e-a98b-86bbdd44fb21",
+                "resourcePath": "rooms\/winGame\/winGame.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
