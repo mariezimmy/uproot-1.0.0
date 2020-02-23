@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "176c72a1-135c-467b-b936-b9f8d9cef6f8",
+            "Value": {
+                "id": "81a72eec-49cf-4d64-a860-43b33607f5ae",
+                "resourcePath": "objects\/oBerries\/oBerries.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "18314b65-a9d3-486a-bec5-87e34ed9ca99",
             "Value": {
                 "id": "09d22cdd-215c-4167-9779-2e7cfd5d3bd6",
