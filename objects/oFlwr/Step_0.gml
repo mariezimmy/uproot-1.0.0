@@ -19,10 +19,10 @@ if (vsp = 0) {x += hsp;}
 
 
 // fire attack
-if (attackCount > random(250) + 200) {
+if (attackCount > random(150) + 200) {
 	attackCount = 0;
 	var currX = x;
-	with instance_create_layer(x, y + 30, "Instances", oWaterAttack) {
+	with instance_create_layer(x, y + 30, "Instances", oFlwrAttk) {
 		speed = 1;
 		if (oPlayer.x < currX) {
 			direction = 180;
