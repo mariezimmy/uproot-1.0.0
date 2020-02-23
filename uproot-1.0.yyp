@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "06acb963-ebc2-42d9-92b6-85799b17cf28",
+            "Value": {
+                "id": "f04dbe22-e110-4039-af86-2655d980a5ec",
+                "resourcePath": "sprites\/sControls\/sControls.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "083981ac-c77d-4272-ac13-5f7c2d78cdae",
             "Value": {
                 "id": "03073fd8-c464-4b74-a49f-77ea581599b2",
@@ -51,6 +59,22 @@
             "Value": {
                 "id": "81cc964a-aa16-4e80-91ca-b3f93a659c8e",
                 "resourcePath": "sprites\/sPlayerW\/sPlayerW.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "127f104b-5838-4d93-a2bd-bbcc6a7c0af6",
+            "Value": {
+                "id": "31f13f76-d793-4743-ab68-33c24c06e933",
+                "resourcePath": "fonts\/fnt_m5x7\/fnt_m5x7.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "14ca96a6-5920-467e-870c-c99590d545ef",
+            "Value": {
+                "id": "2c565fa5-f8e5-49d3-b8c5-0134abfac180",
+                "resourcePath": "sprites\/sTextbox\/sTextbox.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -223,6 +247,14 @@
             }
         },
         {
+            "Key": "51caa007-622a-4f6a-9917-896b9feaaca9",
+            "Value": {
+                "id": "1416e814-5ada-4fe9-96f1-ae1d147649c0",
+                "resourcePath": "objects\/oDialogue\/oDialogue.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "554ad2ae-de07-481b-ab3b-8a4ac99bf788",
             "Value": {
                 "id": "0a8677f8-54b8-4e29-9bc9-ab112ecdde05",
@@ -388,6 +420,14 @@
                 "id": "e4b86266-2dfd-4853-8896-68e43193bc9a",
                 "resourcePath": "rooms\/start\/start.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "dd703d7f-eb29-4664-9d48-9e2d630d6c91",
+            "Value": {
+                "id": "6f38f49c-714e-47a5-91bf-a7497f6aa236",
+                "resourcePath": "objects\/oControls\/oControls.yy",
+                "resourceType": "GMObject"
             }
         },
         {
