@@ -4,10 +4,12 @@
 alpha = clamp(alpha + fade * (0.01), 0, 1);
 
 if (alpha == 1) {
-	if (keyboard_check_pressed(vk_enter)) {
+	if (keyboard_check_pressed(vk_enter) && oSelector.index==0) {
 		room_goto_next();
 		fade = -1;
-	}
+	} else if (keyboard_check_pressed(vk_enter) && oSelector.index==1){
+ 		room_goto(4);
+ 	}
 }
 
 if (alpha == 0 && fade == -1) {

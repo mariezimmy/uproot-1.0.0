@@ -19,7 +19,8 @@
         "2da022ba-9183-40e6-92ea-5938ad18c67d",
         "43e7b849-c534-4ad6-97bf-6fe8288e54cf",
         "0fdbafa3-03be-4690-8aee-4136a5b95eba",
-        "e54a6e2d-6215-41a4-ba03-c602911cb244"
+        "e54a6e2d-6215-41a4-ba03-c602911cb244",
+        "2497f133-a520-47a3-b3ee-bd6997ab4cee"
     ],
     "filterType": "GMSprite",
     "folderName": "sprites",
