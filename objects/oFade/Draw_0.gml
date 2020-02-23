@@ -5,6 +5,7 @@ if (alpha == 1) {
 	if (room_exists(room_next(room))) {
 		room_goto_next();
 		oPlayer.x = 108
+		oPlayer.faded = false;
 		fade = -1;
 	} else {
 		// win state?
