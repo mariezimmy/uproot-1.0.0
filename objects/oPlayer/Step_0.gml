@@ -60,6 +60,19 @@ if (hsp!=0){
 	if(hsp>0) {image_xscale=-1; right=true;} else{ image_xscale=1; right=false;}
 }
 
+if(collided){
+	hp--;
+	if (oHealth.image_index + 1 > sprite_get_number(oHealth.sprite_index)) oHealth.image_index = 0;
+	else if( oPlayer.hp>0 ) oHealth.image_index++;
+	collided=false;
+}
+if(hp==0){
+	instance_destroy();
+	room_goto(6);
+	oStamina.image_index=12;
+	oHealth.image_index=12;
+	
+}
 if (keyboard_check_pressed(ord("Z"))) {
 	attack=true;
 	sprite_index=sPlayerAttk;

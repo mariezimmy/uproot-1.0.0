@@ -9,3 +9,5 @@ faded = false;
 
 shooting=false;
 right=false
+
+collided=false;
