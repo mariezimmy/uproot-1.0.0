@@ -5,16 +5,6 @@
     "name": "goToGame",
     "eventList": [
         {
-            "id": "1d283084-99b7-4f63-b782-f351a761d872",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "e054628c-3df0-4d75-98fd-bbd3d754c44f"
-        },
-        {
             "id": "3d6120de-3dd2-451f-8725-d40907d65c04",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "e054628c-3df0-4d75-98fd-bbd3d754c44f"
+        },
+        {
+            "id": "1d021094-36c2-4988-87ef-a40caf900089",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
             "m_owner": "e054628c-3df0-4d75-98fd-bbd3d754c44f"
         }
     ],
