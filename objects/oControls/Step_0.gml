@@ -1,17 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-// modify alpha value
-alpha = clamp(alpha + fade * (0.05), 0, 1);
+alpha = clamp(alpha + fade * (0.1), 0, 1);
 
 if (alpha == 1) {
-	if (keyboard_check_pressed(vk_enter) && oSelector.index==0) {
-		room_goto_next();
+	if(keyboard_check_pressed(vk_enter)){
+		room_goto(1);
 		fade = -1;
-	} else if (keyboard_check_pressed(vk_enter) && oSelector.index==1){
-		inControls=true;
- 		room_goto(4);
-		fade = -1;
- 	}
+	}
 }
 
 if (alpha == 0 && fade == -1) {
