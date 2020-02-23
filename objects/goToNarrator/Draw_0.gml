@@ -7,7 +7,7 @@ if (alpha == 1) {
 		room_goto_next();
 		fade = -1;
 	} else if (keyboard_check_pressed(vk_enter) && oSelector.index==1){
- 		room_goto(5);
+ 		room_goto(6);
 		fade = -1;
  	}
 }

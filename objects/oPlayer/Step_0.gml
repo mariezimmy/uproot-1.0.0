@@ -68,7 +68,7 @@ if(collided){
 }
 if(hp==0){
 	instance_destroy();
-	room_goto(6);
+	room_goto(7);
 	oStamina.image_index=12;
 	oHealth.image_index=12;
 	

@@ -4,6 +4,10 @@ alpha = clamp(alpha + fade * (0.005), 0, 1);
 if (alpha == 1) {
 	if (room_exists(room_next(room))) {
 		room_goto_next();
+		if (room_next(room) == 5) {
+			oStamina.image_index=12;
+			oHealth.image_index=12;
+		}
 		oPlayer.x = 108
 		oPlayer.faded = false;
 		fade = -1;
