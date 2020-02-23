@@ -63,7 +63,14 @@
             }
         },
         {
-            "Key": "127f104b-5838-4d93-a2bd-bbcc6a7c0af6",
+            "Key": "176c72a1-135c-467b-b936-b9f8d9cef6f8",
+            "Value": {
+                "id": "81a72eec-49cf-4d64-a860-43b33607f5ae",
+                "resourcePath": "objects\/oBerries\/oBerries.yy",
+                "resourceType": "GMObject"
+             }
+        },
+        {            "Key": "127f104b-5838-4d93-a2bd-bbcc6a7c0af6",
             "Value": {
                 "id": "31f13f76-d793-4743-ab68-33c24c06e933",
                 "resourcePath": "fonts\/fnt_m5x7\/fnt_m5x7.yy",
