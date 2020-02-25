@@ -1,6 +1,8 @@
 // player gloabls
 hsp = 3;
 vsp = 3;
+image_xscale=-1; //face the right
+depth=0;
 
 attack=false;
 hp = 13;

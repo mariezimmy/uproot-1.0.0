@@ -7,7 +7,7 @@ eat = keyboard_check_pressed(ord("C"));
 //attack=false;
 grv = 0.15;
 tilemap = layer_tilemap_get_id("TileCollision");
-fademap = layer_tilemap_get_id("Fade");
+//fademap = layer_tilemap_get_id("Fade");
 
 var bbox_side;
 //var bbox_LR;
@@ -20,6 +20,7 @@ if (moveRight) {
 } else {
 	hsp=0;
 }
+
 vsp += grv;
 
 if(!attack){ x+=hsp; }
@@ -68,7 +69,7 @@ if(knockback!=-1 && knockback<40){ //knockback timer
 
 if(collided){ //collision with enemies
 	knockback=0; // signal knockback
-	x-=5;
+	//if(right) x-=5; else x+=5;
 	hp--;
 	if (oHealth.image_index + 1 > sprite_get_number(oHealth.sprite_index)) oHealth.image_index = 0;
 	else if( oPlayer.hp>0 ) oHealth.image_index++;
