@@ -1,3 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
-collided=true;
+//only allow collision if it hasnt just been knocked back
+if(knockback==-1) collided = true;
