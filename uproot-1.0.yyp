@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "014a456f-2a4f-4ae7-bfd2-540aecf50e35",
+            "Value": {
+                "id": "69a4b3a4-05bb-4772-8d2e-76e52d156d09",
+                "resourcePath": "tilesets\/tilefade\/tilefade.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "05db4b9a-b2c0-4aaf-9266-1fd7bb16853e",
             "Value": {
                 "id": "e1527af0-5b7b-4b6f-ad7f-025831bfe1dd",
@@ -124,6 +132,14 @@
                 "id": "eae2bded-649f-4ce2-9802-20edc447350f",
                 "resourcePath": "objects\/oHealth\/oHealth.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "23f01dfc-2969-49aa-be6f-a9f1e0ab81e3",
+            "Value": {
+                "id": "ffc56d11-b0c3-4852-b5e8-f6eded777075",
+                "resourcePath": "sprites\/sFade\/sFade.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
