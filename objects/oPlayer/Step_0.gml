@@ -58,12 +58,21 @@ if (hsp!=0){
 	if(hsp>0) {image_xscale=-1; right=true;} else{ image_xscale=1; right=false;}
 }
 
-if(collided){
+if(knockback!=-1 && knockback<40){ //knockback timer
+	knockback++;
+} else {
+	knockback = -1;
+}
+
+if(collided){ //collision with enemies
+	knockback=0; // signal knockback
+	x-=5;
 	hp--;
 	if (oHealth.image_index + 1 > sprite_get_number(oHealth.sprite_index)) oHealth.image_index = 0;
 	else if( oPlayer.hp>0 ) oHealth.image_index++;
 	collided=false;
 }
+
 if(hp==0){
 	instance_destroy();
 	room_goto(7);
@@ -71,7 +80,8 @@ if(hp==0){
 	oHealth.image_index=12;
 	
 }
-if (keyboard_check_pressed(ord("Z")) && !cooldown) {
+
+if (keyboard_check_pressed(ord("Z")) && !cooldown) { //only allow attacks if it hasnt just been used
 	attack=true;
 	cooldown=true;
 	sprite_index=sPlayerAttk;
@@ -94,12 +104,15 @@ if  (x > 1000 && !faded) { // i know hardcoding
 	instance_create_layer(x, y, "Instances", oFade);
 	oFade.depth = -999;
 }
+//attack cooldown timer
 if(cooldown && cooltmr<40){
 	cooltmr++;
 } else {
 	cooltmr=0;
 	cooldown=false;
 }
+
+//update direction to shoot from
 if(shooting && cooldown){
 	var dxn;
 	if(right)dxn=-1; else dxn=1;
