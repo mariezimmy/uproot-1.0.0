@@ -7,8 +7,10 @@ eat = keyboard_check_pressed(ord("C"));
 //attack=false;
 grv = 0.15;
 tilemap = layer_tilemap_get_id("TileCollision");
+fademap = layer_tilemap_get_id("Fade");
 
 var bbox_side;
+//var bbox_LR;
 
 // horizontal movement
 if (moveRight) {
@@ -99,7 +101,7 @@ if (keyboard_check_pressed(ord("Z")) && !cooldown) { //only allow attacks if it 
 
 
 // check fade to next level
-if  (x > 1000 && !faded) { // i know hardcoding
+if  (x>1000 && !faded) { // i know hardcoding
 	faded = true;
 	instance_create_layer(x, y, "Instances", oFade);
 	oFade.depth = -999;
