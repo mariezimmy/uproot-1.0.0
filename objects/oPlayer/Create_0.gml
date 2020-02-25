@@ -8,6 +8,8 @@ mp = 13;
 faded = false;
 
 shooting=false;
+cooldown=false;
+cooltmr=0;
 right=false
 
 collided=false;
