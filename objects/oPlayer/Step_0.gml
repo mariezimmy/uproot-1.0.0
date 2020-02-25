@@ -6,7 +6,7 @@ eat = keyboard_check_pressed(ord("C"));
 //attack = keyboard_check_pressed(ord("Z"));
 //attack=false;
 grv = 0.1;
-tilemap = layer_tilemap_get_id("Tiles");
+tilemap = layer_tilemap_get_id("TileCollision");
 
 var bbox_side;
 
